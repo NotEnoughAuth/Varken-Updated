@@ -141,6 +141,7 @@ class OmbiTVRequest(NamedTuple):
     tvDbId: int = None
     requestedByAlias: str = None
     requestStatus: str = None
+    externalProviderId: str = None
 
 
 class OmbiMovieRequest(NamedTuple):
@@ -178,6 +179,8 @@ class OmbiMovieRequest(NamedTuple):
     languageCode: str = None
     requestedByAlias: str = None
     requestStatus: str = None
+    is4kRequest: bool = None
+
 
 
 # Sonarr
