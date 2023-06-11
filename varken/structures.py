@@ -180,7 +180,7 @@ class OmbiMovieRequest(NamedTuple):
     requestedByAlias: str = None
     requestStatus: str = None
     is4kRequest: bool = None
-
+    watchedByRequestedUser: bool = None
 
 
 # Sonarr
