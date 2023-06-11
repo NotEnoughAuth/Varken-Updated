@@ -142,6 +142,7 @@ class OmbiTVRequest(NamedTuple):
     requestedByAlias: str = None
     requestStatus: str = None
     externalProviderId: str = None
+    languageProfile: str = None
 
 
 class OmbiMovieRequest(NamedTuple):
@@ -180,6 +181,16 @@ class OmbiMovieRequest(NamedTuple):
     requestedByAlias: str = None
     requestStatus: str = None
     is4kRequest: bool = None
+    has4KRequest: bool = None
+    approved4K: bool = None
+    markedAsApproved4K: str = None
+    requestedDate4k: str = None
+    available4K: bool = None
+    markedAsAvailable4K: bool = None
+    denied4K: bool = None
+    markedAsDenied4K: str = None
+    deniedReason4K: str = None
+    source: str = None
     watchedByRequestedUser: bool = None
 
 
