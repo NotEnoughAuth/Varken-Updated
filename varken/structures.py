@@ -192,6 +192,7 @@ class OmbiMovieRequest(NamedTuple):
     deniedReason4K: str = None
     source: str = None
     watchedByRequestedUser: bool = None
+    playedByUsersCount: int = None
 
 
 # Sonarr
